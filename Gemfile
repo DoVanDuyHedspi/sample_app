@@ -1,18 +1,8 @@
-<<<<<<< HEAD
-# frozen_string_literal: true
 
-source 'https://rubygems.org'
-git_source(:github) { |repo| "https://github.com/#{repo}.git" }
-
-ruby '2.5.1'
-gem 'rubocop', '~> 0.54.0', require: false
-=======
 source "https://rubygems.org"
 git_source(:github){|repo| "https://github.com/#{repo}.git"}
 
 ruby "2.5.1"
-
->>>>>>> 753ecb17220529bbfdbb3cecada8f0bff1c4d915
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem "rails", "~> 5.2.0"
 # Use sqlite3 as the database for Active Record
