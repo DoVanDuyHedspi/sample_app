@@ -3,14 +3,6 @@ class UsersController < ApplicationController
     @user = User.new
   end
 
-  def show
-    @user = User.find_by id: params[:id]
-
-    return if @user
-    flash[:warning] = t("no_user_warning")
-    redirect_to root_path
-  end
-
   def create
     @user = User.new user_params
     if @user.save
@@ -19,6 +11,14 @@ class UsersController < ApplicationController
     else
       render :new
     end
+  end
+
+  def show
+    @user = User.find_by id: params[:id]
+
+    return if @user
+    flash[:warning] = t("no_user_warning")
+    redirect_to root_path
   end
 
   private
