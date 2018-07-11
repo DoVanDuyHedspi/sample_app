@@ -14,8 +14,28 @@
       <li class="nav-item">
         <%= link_to t("help"), helf_path, class: "nav-link" %>
       </li>
-      <li class="nav-item">
-        <%= link_to t("login"), "#", class: "nav-link" %>
-      </li>
+      <% if logged_in? %>
+        <li><%= link_to t("users"), "#", class: "nav-link" %></li>
+        <li class="dropdown nav-item">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+            <%= t("account") %> <b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li>
+              <%= link_to t("profile"), current_user, class: "dropdown-item" %>
+            </li>
+            <li><%= link_to t("settings"), "#", class: "dropdown-item" %></li>
+            <li class="dropdown-divider"></li>
+            <li>
+              <%= link_to t("logout"), logout_path, class: "dropdown-item",
+                method: :delete %>
+            </li>
+          </ul>
+        </li>
+      <% else %>
+        <li class="nav-item">
+          <%= link_to t("login"), login_path, class: "nav-link" %>
+        </li>
+      <% end %>
     </ul>
 </nav>
