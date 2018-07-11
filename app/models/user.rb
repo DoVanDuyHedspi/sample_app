@@ -18,5 +18,4 @@ class User < ApplicationRecord
   def downcase_email
     email.downcase!
   end
-
 end
