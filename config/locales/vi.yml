@@ -35,3 +35,13 @@ vi:
   invalid_login: "Thông tin tài khoản hoặc email sai"
   account_not_activated: "Tài khoản chưa kích hoạt. Kiếm tra lại email"
   please_check_email: "Hãy kiểm tra lại email để kích hoạt"
+  forgot_password: "Quên mật khẩu"
+  sent_email_reset_password: "Email được gửi với hướng dẫn đặt lại mật khẩu"
+  email_not_found: "Không tìm thấy địa chỉ email này"
+  reset_password: "Thiết lập lại mật khẩu"
+  update_password: "Cập nhật mật khẩu"
+  can_not_be_empty: "không được để trống"
+  password_has_been_reset: "Mật khẩu đã thay đổi"
+  password_reset_has_expired: "Đã quá hạn đổi mật khẩu"
+  submit: "Gửi"
+
