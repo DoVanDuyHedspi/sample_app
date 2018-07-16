@@ -9,3 +9,4 @@ user:
     small: 50
 users:
   per_page: 10
+password_reset_expired: 2
