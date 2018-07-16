@@ -7,6 +7,8 @@ gem "rails", "~> 5.2.0"
 
 gem "sqlite3"
 
+gem "sidekiq", "~> 5.1", ">= 5.1.3"
+
 gem "puma", "~> 3.11"
 
 gem "sass-rails", "~> 5.0"
@@ -36,6 +38,8 @@ gem "kaminari"
 gem "bootstrap4-kaminari-views"
 
 gem "config"
+
+gem "figaro", "~> 1.1", ">= 1.1.1"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]

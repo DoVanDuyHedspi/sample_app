@@ -61,3 +61,8 @@ en:
   confirm_destroy: "You sure?"
   user_deleted: "User deleted"
   cannot_delete: "Delete user fails!"
+  account_activated: "Account activated!"
+  invalid_activation_link: "Invalid activation link"
+  invalid_login: "Invalid email/password combination"
+  account_not_activated: "Account not activated. Check your email for the activation link."
+  please_check_email: "Please check your email to activate your account."

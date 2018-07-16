@@ -30,3 +30,8 @@ vi:
   confirm_destroy: "Bạn có chắc chắn muốn xóa?"
   user_deleted: "Người dùng đã bị xóa"
   cannot_delete: "Xóa ngưòi dùng không thành công!"
+  account_activated: "Tài khoản đã được kích hoạt"
+  invalid_activation_link: "Đường dẫn kích hoạt không hợp lệ"
+  invalid_login: "Thông tin tài khoản hoặc email sai"
+  account_not_activated: "Tài khoản chưa kích hoạt. Kiếm tra lại email"
+  please_check_email: "Hãy kiểm tra lại email để kích hoạt"

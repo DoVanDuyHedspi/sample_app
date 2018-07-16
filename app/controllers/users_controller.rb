@@ -5,8 +5,8 @@ class UsersController < ApplicationController
   before_action :correct_user, only: [:edit, :update]
 
   def index
-    @users = User.select(:name, :email, :id, :admin).order(:name)
-      .page(params[:page]).per(Settings.users.per_page)
+    @users = User.select_user_activated.page(params[:page])
+      .per(Settings.users.per_page)
   end
 
   def new
@@ -16,9 +16,9 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
-      flash[:success] = t("welcome")
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t("please_check_email")
+      redirect_to root_url
     else
       render :new
     end
