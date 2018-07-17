@@ -48,4 +48,11 @@ vi:
   micropost_deleted: "Bài viết đã được xóa"
   alert_choose_smaller_file: "Hãy chọn file có kích thước nhỏ hơn"
   micropost_feed: "Bảng tin"
+  follow: "Theo dõi"
+  unfollow: "Bỏ theo dõi"
+  view_my_profile: "xem trang cá nhân"
+  following: "Đang theo dõi"
+  followers: "Người theo dõi"
+  microposts: "Bài đăng"
+  compose_new_micropost: "Viết bài..."
 
