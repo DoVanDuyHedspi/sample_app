@@ -44,4 +44,8 @@ vi:
   password_has_been_reset: "Mật khẩu đã thay đổi"
   password_reset_has_expired: "Đã quá hạn đổi mật khẩu"
   submit: "Gửi"
+  micropost_created: "Bài viết đã được đăng"
+  micropost_deleted: "Bài viết đã được xóa"
+  alert_choose_smaller_file: "Hãy chọn file có kích thước nhỏ hơn"
+  micropost_feed: "Bảng tin"
 

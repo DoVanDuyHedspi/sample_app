@@ -10,3 +10,6 @@ user:
 users:
   per_page: 10
 password_reset_expired: 2
+microposts:
+  per_page: 5
+  image_max_size_mb: 5
