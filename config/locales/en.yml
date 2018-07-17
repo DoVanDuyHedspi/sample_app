@@ -75,3 +75,7 @@ en:
   password_has_been_reset: "Password has been reset"
   password_reset_has_expired: "Password reset has expired"
   submit: "Submit"
+  micropost_created: "Micropost created!"
+  micropost_deleted: "Micropost deleted!"
+  alert_choose_smaller_file: "Please choose a smaller file."
+  micropost_feed: "Micropost feed"
